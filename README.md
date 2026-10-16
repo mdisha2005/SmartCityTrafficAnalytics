@@ -1,8 +1,8 @@
-# 🚦 Smart City Traffic Analytics
+#  Smart City Traffic Analytics
 
 A Python-based data analytics project for analyzing traffic patterns, identifying accident hotspots, visualizing accident locations, and demonstrating live accident reporting through interactive dashboards.
 
-## 📌 Project Overview
+##  Project Overview
 
 Smart City Traffic Analytics helps analyze traffic and accident datasets to understand congestion patterns, peak traffic hours, accident-prone locations, and accident severity. It uses data visualization and interactive maps to present useful insights for smart city monitoring.
 
@@ -30,7 +30,7 @@ The project includes a simulated live accident reporting feature for demonstrati
 - **OpenStreetMap** — Map background and geographical visualization
 - **CSV** — Dataset storage
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 SmartCityTrafficAnalytics/
@@ -47,7 +47,7 @@ SmartCityTrafficAnalytics/
 └── README.md
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -74,7 +74,7 @@ Activate it on Windows PowerShell:
 python -m pip install pandas folium streamlit matplotlib streamlit-folium
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 Run the following commands from the project root directory.
 
@@ -110,7 +110,7 @@ python -m streamlit run data/live_dashboard.py
 
 After starting a Streamlit dashboard, open the local URL displayed in your terminal, usually `http://localhost:8501`.
 
-## 📊 Expected Results
+## Expected Results
 
 - Traffic analysis summaries and charts
 - Peak-hour and congestion insights
@@ -121,11 +121,11 @@ After starting a Streamlit dashboard, open the local URL displayed in your termi
 
 Generated charts and map files are saved in the `data/outputs/` directory when the corresponding scripts create them.
 
-## ⚠️ Important Note
+##  Important Note
 
 The live accident reporting feature is a simulation. The project does not independently detect actual road accidents or automatically dispatch emergency services. Real-world operation would require validated detection technology, live data sources, and appropriate integrations.
 
-## 🎯 Project Objective
+##  Project Objective
 
 To demonstrate how Python, data analytics, and geographical visualization can help explore traffic conditions and accident patterns for smart city monitoring.
 
